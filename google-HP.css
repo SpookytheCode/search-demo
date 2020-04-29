@@ -26,6 +26,7 @@ html {
 
 body {
     height: 100%;
+    position: relative;
 }
 
 
@@ -83,19 +84,24 @@ body {
     font-size: 14px;
 }
 
-footer {
-    
+footer {   
+    width: 100%; 
+    position: fixed;
+    bottom: 0;
 }
 
 #footer-links {
-    width: auto;
-    height: 40px;
+    
+    
+    font-size: 15px;
+    
 }
 
 .footer-left {
-
+    float: left;
 }
 
 #footer-right-links {
     float: right;
+    margin-right: 15px;
 }
